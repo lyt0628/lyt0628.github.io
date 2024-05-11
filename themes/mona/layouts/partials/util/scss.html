@@ -1,0 +1,14 @@
+{{- /*
+Import Scss File.
+
+@context {string} .  the scss path relative to the /assets/scss/.
+
+*/}}
+
+
+{{- $css := resources.GetMatch (print "scss/" .)
+            | resources.ToCSS  
+            | resources.ExecuteAsTemplate (print . ".css") "nothing" 
+            | minify }}
+
+<link rel="stylesheet" type="text/css" href="{{$css.Permalink}}">

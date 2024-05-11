@@ -1,0 +1,15 @@
+
+{{ define "main" }}
+{{ partial "util/css.html" "post.css" }}
+
+
+{{ range partial "util/subpages.html" .}}
+  
+  {{ partial "post.html" . }}
+
+{{ end }}
+
+
+{{ end }}
+
+    

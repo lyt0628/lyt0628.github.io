@@ -1,0 +1,30 @@
+
+
+<div class="article">
+  <div class="article-header">
+  {{with .Title}}
+    <h1 class="article-title">{{.}}</h1>
+  {{end}}
+  </div>
+  <div class="article-content">{{.Content}}</div>
+
+  <div class="article-footer">
+    <ul>
+      <li>
+        <a href=".."> << Back</a>
+      </li>
+      <li>
+      {{ with .PrevInSection }}
+        <a class="previous" href="{{ .RelPermalink }}">Previous Article： {{ .LinkTitle }} </a>
+      {{ end }}
+      </li>
+      <li>
+      {{ with .NextInSection }}
+        <a class="next" href="{{ .RelPermalink }}">Next Article： {{ .LinkTitle }}</a>
+      {{ end }}
+      </li>
+    </l>
+
+  </div>
+</div>
+

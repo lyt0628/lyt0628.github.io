@@ -1,0 +1,26 @@
+{{- /*
+
+description: import JavaScript file.
+    
+@context {string} .  the path of index.js file relative to the assets/js/ folder.
+
+*/}}
+
+{{- $js := resources.Get (print "js/" . ) -}}
+{{ $sourceMap := cond hugo.IsProduction "" "inline" }}
+
+{{ $opts := dict "sourceMap" $sourceMap 
+                  "minify" hugo.IsProduction 
+                  "target" site.Params.js_version | default "es2018"
+                  }}
+
+
+{{ $js = $js | js.Build $opts }}
+
+{{ if hugo.IsProduction }}
+  {{ $js = $js | fingerprint }}
+{{ end }}
+
+<script  src="{{ $js.RelPermalink }}"
+        {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }}defer>
+</script>

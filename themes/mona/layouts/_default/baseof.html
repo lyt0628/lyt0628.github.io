@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="icon" href="mona.ico" type="image/x-icon">
+
+{{ partial "util/css.html" "reset.css" }}
+{{ partial "util/css.html" "variables.css" }}
+{{ partial "util/css.html" "common.css" }}    
+{{ partial "util/css.html" "main.css" }}    
+{{ partial "util/css.html" "header.css" }}
+{{ partial "util/css.html" "sidebar.css" }}
+{{ partial "util/css.html" "footer.css" }}
+
+</head>
+<body>
+ {{ block "body" . }}
+  
+{{ partial "header.html" . }}
+<main class="main">
+<div>
+{{block "main" . }}
+  {{with .Title}}
+  <h1>{{.}}</h1>
+  {{end}}
+
+  <div>{{.Content}}</div>
+{{end}}
+</div>
+
+{{ partial "sidebar.html" . }}
+</main>
+
+{{ end }}
+
+{{ partial "footer.html" . }}
+{{ partial "util/js.html" "index.js" }}    
+</body>

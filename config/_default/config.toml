@@ -6,4 +6,7 @@ theme = "mona"
 
 
 
+
+sectionPagesMenu= '_'
+
 enableEmoji = true

@@ -4,34 +4,20 @@
       <div class="left-area">
         
         <h1 class="logo">
-          <a href="#">摸鱼天尊</a>
+          <a href="{{site.BaseURL}}">摸鱼天尊</a>
         </h1>
 
         <ul class="nav-list">
-          <li class="item">
-            <a href="#">
-              开源项目
-              <span class="desc">Product</span>
+
+          {{ range site.Menus.main }}
+           <li class="item">
+            <a href="{{.URL}}">
+              {{.Name}}
+              <span class="desc">{{ .Identifier }}</span>
             </a>
-          </li>
-          <li class="item">
-            <a href="#">
-              编程指南
-              <span class="desc">Tutorial</span>
-            </a>
-          </li>
-          <li class="item">
-            <a href="#">
-              动画作品
-              <span class="desc">Animation</span>
-            </a>
-          </li>
-          <li class="item">
-            <a href="#">
-              博客
-              <span class="desc">Blog</span>
-            </a>
-          </li>
+          </li>           
+          {{ end }}
+
           <li class="item">
             <a href="#">
               网页游戏
@@ -39,7 +25,7 @@
             </a>
           </li>
           <li class="item">
-            <a href="#">
+            <a href="https://www.bitbug.net/">
               网址导航
               <span class="desc">Navigation</span>
             </a>

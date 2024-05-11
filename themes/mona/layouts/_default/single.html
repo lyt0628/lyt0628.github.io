@@ -2,7 +2,8 @@
 {{ define "body" }}
 {{ partial "util/css.html" "article.css" }}
 
+{{ partial "header.html" . }}
+<main class="main">
 {{ partial "article.html" . }}
+</main>
 {{ end }}
-
-

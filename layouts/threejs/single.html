@@ -1,10 +1,11 @@
 
+
 {{ define "body" }}
 {{ partial "util/css.html" "article.css" }}
 
 {{ partial "header.html" . }}
-<main class="main">
-{{ partial "article.html" . }}
-</main>
+
+{{ partial "3party/threejs.html"}}
+{{.Content}}
 
 {{ end }}

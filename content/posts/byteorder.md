@@ -1,3 +1,13 @@
++++
+title = '测试主机序的程序'
+summary = "使用C语言数组进行主机字节序的测量"
+date = 2024-04-08T02:27:31+08:00
+draft = true
+tags = ['C']
++++
+
+
+
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">

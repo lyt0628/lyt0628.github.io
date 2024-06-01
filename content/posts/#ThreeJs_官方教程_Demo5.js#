@@ -1,0 +1,9 @@
++++
+title = 'Three_官方教程_Demo5'
+date = 2024-06-01T12:31:27+08:00
+type = 'simple'
+tags = ['threejs']
++++
+
+
+{{< js "/game/org-toruial5.js" >}}

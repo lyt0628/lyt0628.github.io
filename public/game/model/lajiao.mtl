@@ -1,0 +1,454 @@
+# Blender 4.1.1 MTL File: '绑定1烧酒半身像.blend1111.blend'
+# www.blender.org
+
+newmtl Arms
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKARM_BaseColor_1001.jpg
+
+newmtl Arms.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKARM_BaseColor_1001.jpg
+
+newmtl Body
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKBODY_BaseColor_1001.jpg
+
+newmtl Body.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKBODY_BaseColor_1001.jpg
+
+newmtl Cornea
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.995000
+illum 1
+
+newmtl Cornea.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.995000
+illum 1
+
+newmtl Ears
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKFace_BaseColor_1001_Brows.jpg
+
+newmtl Ears.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKFace_BaseColor_1001_Brows.jpg
+
+newmtl EyeMoisture
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.995000
+illum 1
+
+newmtl EyeMoisture.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.995000
+illum 1
+
+newmtl EyeSocket
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKFace_BaseColor_1001_Brows.jpg
+
+newmtl EyeSocket.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKFace_BaseColor_1001_Brows.jpg
+
+newmtl Eyelashes
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl Eyelashes.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl Face
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKMU_SET_04.jpg
+
+newmtl Face.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKMU_SET_04.jpg
+
+newmtl Fingernails
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKARM_BaseColor_1001.jpg
+
+newmtl Fingernails.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKARM_BaseColor_1001.jpg
+
+newmtl GoB_GP_Layer_001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.017543 0.016376 0.016376
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Head
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKHEAD_BaseColor_1001.jpg
+
+newmtl Head.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKHEAD_BaseColor_1001.jpg
+
+newmtl Irises
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRK Eyes Color 01 Diffuse.jpg
+
+newmtl Irises.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRK Eyes Color 01 Diffuse.jpg
+
+newmtl Legs
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKLEGS_BaseColor_1001.jpg
+
+newmtl Legs.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKLEGS_BaseColor_1001.jpg
+
+newmtl Lips
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKFace_BaseColor_1001_Brows.jpg
+
+newmtl Lips.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKFace_BaseColor_1001_Brows.jpg
+
+newmtl Material.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.012433 0.011599 0.011599
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material.006
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.777853 0.776517 0.776517
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump -bm 0.900000 yanjing-NM_u0_v0.tif
+
+newmtl Material.011
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.026137 0.023016 0.021648
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Mouth
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRK Mouth Color 01.jpg
+
+newmtl Mouth.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRK Mouth Color 01.jpg
+
+newmtl Pupils
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRK Eyes Color 01 Diffuse.jpg
+
+newmtl Pupils.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRK Eyes Color 01 Diffuse.jpg
+
+newmtl Sclera
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRK Eyes Color 01 Diffuse.jpg
+
+newmtl Sclera.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRK Eyes Color 01 Diffuse.jpg
+
+newmtl Tear
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.894118 0.894118 0.894118
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.995000
+illum 1
+
+newmtl Tear.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.894118 0.894118 0.894118
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.995000
+illum 1
+
+newmtl Teeth
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRK Mouth Color 01.jpg
+
+newmtl Teeth.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRK Mouth Color 01.jpg
+
+newmtl Toenails
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKLEGS_BaseColor_1001.jpg
+
+newmtl Toenails.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd /d/daz/ziyuanku/Runtime/Textures/Cinnabar/Rainy Koo/CNBRKLEGS_BaseColor_1001.jpg
+
+newmtl checker_map_gravity
+Ns 210.764557
+Ka 1.000000 1.000000 1.000000
+Kd 0.794827 0.785944 0.785563
+Ks 0.513636 0.513636 0.513636
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 1.000000 facenormal.tif
+
+newmtl hair
+Ns 250.000000
+Ka 0.677273 0.677273 0.677273
+Ks 0.590910 0.590910 0.590910
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 3
+map_Kd Hair2_DIFFUSE.png
+map_d Hair1_ROOT.png

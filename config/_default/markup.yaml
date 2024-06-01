@@ -2,4 +2,4 @@
 
 goldmark:
   renderer:
-    unsafe: true
+    unsafe: true # enable HTML code in Markdown

@@ -1,0 +1,11 @@
+
+
+{{ define "body" }}
+{{ partial "util/css.html" "article.css" }}
+
+{{ partial "header.html" . }}
+
+{{.Content}}
+
+{{ end }}
+

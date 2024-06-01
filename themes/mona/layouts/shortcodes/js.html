@@ -1,6 +1,11 @@
 
 {{-  $path := (.Get "path") | default (.Get 0)   -}}
+{{-  $isModule := (.Get "isModule") | default (.Get 1)   -}}
 
 <body>
+  {{if $isModule}}
   <script type="module" src="{{$path}}"></script>
+  {{else}}
+  <script type="text/javascript" src="{{$path}}"></script>
+  {{end}}
 </body>

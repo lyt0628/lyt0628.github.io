@@ -1,0 +1,36 @@
+@import "reset";
+@import "design";
+@import "header";
+@import "footer";
+
+// Set for basic global style
+body {
+    display: flex;
+    flex-direction: column;
+    
+    min-height: 100vh;
+
+    color: $color-light;
+    background-color: $color-shadow;
+
+    padding: 0 5vw;
+}
+
+a {
+    color: $color-light;
+}
+
+
+#header-hr {
+    height: 1px;
+    width: 100%;
+    color: $color-blood;
+}
+
+
+
+#content {
+    // Fill the rest space
+    flex: 1;
+
+}

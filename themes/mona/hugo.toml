@@ -4,6 +4,7 @@ title = 'My New Hugo Site'
 
 
 [module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.116.0"
+[module.hugoVersion]
+extended = false
+min = "0.116.0"
+

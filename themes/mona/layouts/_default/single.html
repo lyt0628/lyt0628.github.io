@@ -1,10 +1,8 @@
 
-{{ define "body" }}
-{{ partial "util/css.html" "article.css" }}
+{{define "custom-style" }} 
+    {{ partial "util/scss.html" "style/article.scss" }}
+{{end}}
 
-{{ partial "header.html" . }}
-<main class="main">
-{{ partial "article.html" . }}
-</main>
-
+{{ define "content" }}
+    {{ partial "article.html" . }}
 {{ end }}

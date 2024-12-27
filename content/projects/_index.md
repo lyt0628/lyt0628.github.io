@@ -1,8 +1,8 @@
 ---
-title: 开源项目
-summary: This Docs for LYT0628
+title: Projects
+summary: Overview of Projects that LYT0628 contributing to
 menu:
   main:
-    identifier: project
+    identifier: projects
     weight: 300
 ---

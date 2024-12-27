@@ -6,7 +6,7 @@ Import CSS File.
 
 */}}
 
-{{- $css := resources.GetMatch (print "css/" .)
+{{- $css := resources.GetMatch .
             | resources.ExecuteAsTemplate (print . ".css") "nothing" 
             | minify }}
 

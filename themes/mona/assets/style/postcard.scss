@@ -1,0 +1,64 @@
+@import "design";
+
+.postcard {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom:  5vh;
+
+  .postcard-tag-pannel {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+
+    .postcard-tag-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+
+      margin-bottom: 0px;
+
+      margin-right: 1vw;
+      .postcard-tag-item {
+        margin-right: 1vw;
+        padding: 0 5px;
+
+
+        color: $color-light-1;
+        background-color: $color-shadow-5;
+
+
+        box-shadow: 3px -1px 1px $color-shadow-4;
+      } 
+    }
+  }
+
+
+  .postcard-pannel {  
+    padding: 25px 5px 5px 10px;
+
+    border-left: 1px solid  $color-shadow-1;
+    border-bottom: 1px solid  $color-shadow-2;
+    border-right: 1px solid  $color-shadow;
+    border-radius:  5px;
+    box-shadow: 10px 10px 5px $color-shadow-4;
+
+  }
+
+
+}
+
+.postcard-title {
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.postcard-subtitle {
+  margin-left: 20px;
+}
+
+
+.postcard-desc {
+  margin-left: 10px;
+}
+

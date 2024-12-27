@@ -1,7 +1,6 @@
 +++
 title = 'ThreeJS_官方教程_Demo4'
 date = 2024-06-01T12:18:54+08:00
-type = 'simple'
 tags = ['threejs']
 +++
 

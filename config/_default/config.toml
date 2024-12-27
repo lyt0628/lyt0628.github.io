@@ -3,12 +3,13 @@ baseURL =  "https://blog.lyt0628.icu/"
 languageCode = "zh-CN"
 theme = "mona"
 
+title = "Lyt0628 | A Developer And Artist"
 
 
+enableEmoji = true
 
 
 sectionPagesMenu= '_'
 
-enableEmoji = true
 
 

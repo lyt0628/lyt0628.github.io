@@ -1,14 +1,29 @@
 {{- /*
 Import Scss File.
 
-@context {string} .  the scss path relative to the /assets/scss/.
+@context {string} .  The glboal SCSS file to load.
 
 */}}
 
 
-{{- $css := resources.GetMatch (print "scss/" .)
-            | resources.ToCSS  
-            | resources.ExecuteAsTemplate (print . ".css") "nothing" 
-            | minify }}
+{{ with resources.Get . }}
+    {{ $opts := dict 
+        "transpiler" "libsass" 
+        "enableSourceMap" (not hugo.IsProduction)
+    }}
 
-<link rel="stylesheet" type="text/css" href="{{$css.Permalink}}">
+    {{ with . | toCSS $opts }}
+
+        {{ if hugo.IsDevelopment }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}">
+        {{ else }}
+            {{ with . | minify | fingerprint }}
+            <link rel="stylesheet" href="{{ .RelPermalink }}" 
+                    integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+            {{ end }}
+        {{ end }}
+
+    {{ end }}
+    
+{{ end }}
+        

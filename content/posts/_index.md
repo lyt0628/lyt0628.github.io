@@ -1,8 +1,8 @@
 ---
-title: 博客
+title: Posts
 summary: This Docs for LYT0628
 menu:
   main:
-    identifier: blog
+    identifier: posts
     weight: 100
 ---

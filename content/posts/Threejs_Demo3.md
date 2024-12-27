@@ -2,7 +2,6 @@
 title = 'Threejs Demo3'
 summary = "展示 FPS 和 dat.gui.js"
 date = 2024-06-01T17:34:19+08:00
-type = 'simple'
 tags = ['threejs']
 +++
 

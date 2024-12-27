@@ -1,0 +1,25 @@
+<div class="postcard">
+  <div class="postcard-tag-pannel">
+    <ul class="postcard-tag-list">
+      {{ range partial "util/tags.html" .  }}
+        <li class="postcard-tag-item"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+
+
+  <div class="postcard-pannel">
+    <a href="{{ .Permalink }}" style="display:block" class="postcard-link">
+      <div class="postcard-title">
+        <h3>{{ partial "util/title.html" . }}</h3>
+
+        <div class="postcard-subtitle">{{  .Date | time.Format ":date_medium" }}</div>
+      </div>
+
+      <div class="postcard-desc">
+        {{ .Summary }}
+      </div>
+  </a>
+  </div>
+
+</div>

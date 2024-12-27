@@ -2,7 +2,6 @@
 title = 'ThreeJs_官方教程_Demo3'
 summary = "展示一个Blender猴头"
 date = 2024-05-19T23:03:12+08:00
-type = 'simple'
 tags = ['threejs']
 +++
 

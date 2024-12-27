@@ -1,58 +1,57 @@
   
-  <div class="header">
-    <div class="area">
-      <div class="left-area">
-        
-        <h1 class="logo">
-          <a href="{{site.BaseURL}}">摸鱼天尊</a>
-        </h1>
+  <header class="header">
+    <!-- Left Area-->
+    <div class=" header-left">
 
-        <ul class="nav-list">
+      <div class="header-logo">
+          <a href="{{site.BaseURL}}">摸鱼天尊</a>
+      </div>
+
+      <nav>
+        <ul class="header-nav">
 
           {{ range site.Menus.main }}
-           <li class="item">
+           <li class="header-nav-item">
             <a href="{{.URL}}">
               {{.Name}}
-              <span class="desc">{{ .Identifier }}</span>
             </a>
           </li>           
           {{ end }}
 
-          <li class="item">
-            <a href="#">
-              网页游戏
-              <span class="desc">Games</span>
-            </a>
-          </li>
-          <li class="item">
+          {{/*  <li class="item">
             <a href="https://www.bitbug.net/">
               网址导航
               <span class="desc">Navigation</span>
             </a>
-          </li>
+          </li>  */}}
         </ul>
         
-        <div class="search">
-          <a href="#"></a>
-        </div>
-      </div>
-
-      <div class="right-area">
-        <a class="image" target="_blank"
-           href="https://github.com/LYT0628">
-          <img width="32" height="32" src="/github32x32.ico" alt="github homepage">
-        </a>
-        <a class="image" target="_blank"
-           href="https://bilibilib.com/">
-          <img width="32" height="32" src="/bilibili32x32.ico" alt="bilibili homepage">
-        </a>
-        <div class="info">
-          <a href="#">摸鱼天尊</a>
-          <p>程序设计师，独立动画师</p>
-        </div>
-      </div>
-
+      </nav>
     </div>
-    <hr/>
-  </div>
+    <!-- End Of Left Area-->
+
+
+    <!-- Right Area-->
+    <div class=" header-right">
+      <div class="header-search" >
+         <input  class="header-search-input"  id="header-search-input" placeholder="Seache..." />
+         <div class="header-search-pannel" id="header-search-pannel">
+            <ul class="header-search-list">
+               <li class="header-search-item">QS Game</li> 
+               <li class="header-search-item">QS Game</li> 
+               <li class="header-search-item">QS Game</li> 
+               <li class="header-search-item">QS Game</li> 
+               <li class="header-search-item">QS Game</li> 
+               <li class="header-search-item">QS Game</li> 
+            </ul>
+         </div>
+      </div>
+
+      <div class="header-info">
+        <a href="#">摸鱼天尊</a>
+        <p>程序设计师，独立动画师</p>
+      </div>
+    </div> 
+    <!--End Of Right Area-->
+  </header>
 

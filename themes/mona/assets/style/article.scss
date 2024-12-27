@@ -1,0 +1,35 @@
+
+
+.article {
+    text-align: center;
+
+    margin-left:  10%;
+    margin-right: 10%;
+
+
+    .article-footer {
+        display: flex;
+        justify-content: space-between;
+
+        .article-footer-next {
+            margin-top: 2vh;
+        }
+    }
+}
+
+.article-header {
+    margin-bottom: 20px;
+    
+    border-bottom: 1px solid;
+}
+
+.article-title {
+    text-align: center;
+}
+
+
+
+.article-footer a {
+    color: red;
+}
+

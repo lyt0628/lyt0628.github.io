@@ -3,7 +3,6 @@ title = 'Threejs_Demo2'
 date = 2024-06-01T15:39:52+08:00
 draft = true
 summary = '创建点光源'
-type = 'simple'
 tags = ['threejs']
 +++
 

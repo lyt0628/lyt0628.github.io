@@ -1,11 +1,10 @@
+{{ define "content" }}
+{{ partial "util/scss.html" "style/postcard.scss" }}
 
-{{ define "main" }}
-{{ partial "util/css.html" "post.css" }}
 
-
-{{ range partial "util/subpages.html" .}}
+{{ range .Pages }}
   
-  {{ partial "post.html" . }}
+  {{ partial "postcard.html" . }}
 
 {{ end }}
 

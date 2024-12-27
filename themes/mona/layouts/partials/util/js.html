@@ -6,7 +6,8 @@ description: import JavaScript file.
 
 */}}
 
-{{- $js := resources.Get (print "js/" . ) -}}
+{{- $js := resources.Get .  -}}
+
 {{ $sourceMap := cond hugo.IsProduction "" "inline" }}
 
 {{ $opts := dict "sourceMap" $sourceMap 
@@ -22,5 +23,5 @@ description: import JavaScript file.
 {{ end }}
 
 <script  src="{{ $js.RelPermalink }}"
-        {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }}defer>
+        {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }} defer>
 </script>

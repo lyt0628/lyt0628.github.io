@@ -11,19 +11,26 @@
         <ul class="header-nav">
 
           {{ range site.Menus.main }}
-           <li class="header-nav-item">
-            <a href="{{.URL}}">
-              {{.Name}}
-            </a>
-          </li>           
+
+            {{ if not .HasChildren }}
+              <li class="header-nav-item">
+                <a href="{{.URL}}">{{.Name}}</a>
+              </li>           
+            {{ else }}
+              <li class="header-nav-item header-nav-sub">
+                <button class="header-nav-sub-toggle">{{.Name}} ▼</button> 
+                <nav class="header-nav-sub-pannel">
+                  <ul class="header-nav-sub-nav">
+                    {{ range .Children }}
+                      <li class="header-nav-sub-navitem"><a href="{{.URL}}">{{.Name}}</a></li>
+                    {{ end }}
+                  </ul>
+                </nav>
+              </li>  
+            {{ end }}
+
           {{ end }}
 
-          {{/*  <li class="item">
-            <a href="https://www.bitbug.net/">
-              网址导航
-              <span class="desc">Navigation</span>
-            </a>
-          </li>  */}}
         </ul>
         
       </nav>
@@ -35,7 +42,7 @@
     <div class=" header-right">
       <div class="header-search" >
          <input  class="header-search-input"  id="header-search-input" placeholder="Seache..." />
-         <div class="header-search-pannel" id="header-search-pannel">
+         <div class="header-search-pannel" id="header-search-pannel" >
             <ul class="header-search-list">
                <li class="header-search-item">QS Game</li> 
                <li class="header-search-item">QS Game</li> 

@@ -1,0 +1,18 @@
+
+{{ define "custom-style" }}
+    {{ partial "util/scss.html" "mona/style/article.scss" }}
+    {{ partial "util/scss.html" "mona/style/docs/main.scss" }}
+{{ end }}
+
+
+{{ define "custom-script" }}
+    {{ partial "util/js.html" "mona/js/docs/main.js" }}
+{{ end }}
+
+
+{{ define "content" }}
+
+{{ partial "docs/doc.html" (dict "doc" .Parent "article" .) }}
+
+{{ end }}
+

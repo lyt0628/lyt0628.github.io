@@ -1,0 +1,29 @@
+
+
+<article class="article">
+  <div class="article-header">
+    <h1 class="article-title">{{.Title}}</h1>
+  </div>
+
+  <div class="article-content">{{.Content | markdownify}}</div>
+
+  <div class="article-footer">
+    <div class="article-footer-left">
+
+        <div class="article-footer-next">{{ with .NextInSection }}
+            <a  href="{{ .RelPermalink }}">  ⤊{{ partial "util/title.html" . }}</a>
+        {{ end }}</div>
+
+    </div>
+
+    <div class="article-footer-right">
+
+        <div class="article-footer-prev">{{ with .PrevInSection }}
+            <a  href="{{ .RelPermalink }}">  ⤋ {{partial "util/title.html" . }} </a>
+        {{ end }}</div>
+        
+    </div>
+  </div>
+</article>
+
+

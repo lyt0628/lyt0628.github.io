@@ -1,0 +1,119 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 5vh;
+
+    .header-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-left {
+        display: flex;
+        
+
+        .header-nav {
+            display: flex;
+            justify-content: space-evenly;
+
+            .header-nav-item {
+                margin-left: 2vw;
+
+
+            }
+
+            .header-nav-sub-pannel {
+                position: relative;
+
+                left: -20% ;
+                top: 1vh;
+                
+                .header-nav-sub-nav {
+                    position: absolute;
+                    display: flex;
+
+                    flex-direction: column;
+                 
+                    padding: 1vh 1vw;
+
+                    color: $color-light-5;
+
+
+                    border-radius: 5px;
+                    border-left: 1px solid $color-light-1;
+                    box-shadow: 10px 5px 5px $color-shadow-5;
+
+                    .header-nav-sub-navitem  {
+                        margin: 1vh 0;
+                        padding: 1vh 0;
+
+
+                        background-color: $color-shadow-1;
+                        border-radius: 5px;
+                        box-shadow: 10px 3px 3px $color-shadow-4;
+
+
+                        a {
+                            padding: 0 2vw;
+                        }
+                    }
+                }
+
+            }
+
+    
+
+        }
+    }
+
+
+    .header-right {
+        display: flex;
+
+        .header-search {
+            width: 10vw;
+            margin: 5% 1vw;
+
+            .header-search-input {
+                border: 1px solid;
+                border-radius: 45px;
+
+                width: 90%;
+            }
+
+            .header-search-pannel {
+                display: none;
+                position: relative;
+
+                 .header-search-list { 
+                    
+                    position: absolute;
+                    top: 10px;
+
+                    padding: 1vh 1vh;
+
+                    color: $color-light-4;
+                    background-color: $color-shadow-1;
+
+
+                    min-width: 10vw;
+
+
+
+                    border-radius: 5px;
+                    box-shadow: 10px 10px 5px $color-shadow-4 ; /*Blur height-offset width-offset color*/
+
+
+                    .header-search-item {
+                        margin-top: 1vh;
+                    }
+            }
+            }
+
+        }
+    }
+}

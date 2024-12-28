@@ -1,6 +1,6 @@
 
 {{-  $path := (.Get "path") | default (.Get 0)   -}}
-{{-  $isModule := (.Get "isModule") | default (.Get 1)   -}}
+{{-  $isModule := (.Get "isModule") | default (.Get 1) | default true  -}}
 
 <body>
   {{if $isModule}}

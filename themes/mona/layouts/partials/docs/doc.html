@@ -1,0 +1,14 @@
+
+{{$doc := (index . "doc")   }}
+{{$article := (index . "article")   }}
+
+
+<div class="docs-doc">
+    {{ partial "docs/content.html" $doc }}
+
+    <div class="doc-article">
+            {{ partial "docs/article.html" $article }}
+    </div>
+
+</div>
+

@@ -2,6 +2,7 @@
 title = 'ThreeJs_官方教程_Demo2'
 summary = "画一条线"
 date = 2024-05-19T21:54:38+08:00
+type = 'three'
 tags = ['threejs']
 +++
 

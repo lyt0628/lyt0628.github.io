@@ -12,14 +12,13 @@
   {{ end }}</title>
 
 
-
   {{block  "style" . }}
-    {{ partial "util/scss.html" "style/main.scss" }}
+    {{ partial "util/scss.html" "mona/style/main.scss" }}
   {{end}}
 
     {{/*  Block for page to add extra style  */}}
-    {{block "custom-style" . }}
-    {{end}}
+  {{block "custom-style" . }}{{end}}
+
 </head>
 <body >
   {{ block "body" . }}
@@ -32,13 +31,14 @@
     </main>
     
     {{ partial "footer.html" . }}
+
+
+
+  {{ partial "util/js.html" "mona/js/main.js" }}
   {{ end }}
 
 
-  {{block "script" .}}
-    {{ partial "util/js.html" "js/main.js" }}
-  {{end}}
-
+  {{block "custom-script" .}}{{end}}
 <body>
   
 

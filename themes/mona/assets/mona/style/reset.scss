@@ -1,0 +1,21 @@
+@import "./deps/normlize";
+
+li {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color:  inherit;
+    background-color: #00000000;
+
+    cursor: pointer;
+}

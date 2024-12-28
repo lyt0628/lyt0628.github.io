@@ -1,0 +1,27 @@
+{{define "style"}}
+    {{ partial "util/scss.html" "style/reset.scss" }}
+    <style>
+        html {
+            background-color: black;
+        }
+    </style>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "/js/deps/thressjs/three.module.js",
+                "vue": "/js/deps/vue/vue.runtime.esm-browser.prod.js"
+            }
+        }
+    </script>
+
+    
+
+{{end}}
+{{ define "body" }}
+    <body>
+        {{.Content }}
+    </body>
+{{ end }}
+
+

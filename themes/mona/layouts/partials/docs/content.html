@@ -1,0 +1,5 @@
+    <aside class="doc-content">
+        {{ range .Pages.ByTitle }}
+            {{ partial "docs/content_item.html" . }}
+        {{ end }}
+    </aside>

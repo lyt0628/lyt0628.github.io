@@ -1,13 +1,12 @@
-{{ define "content" }}
-{{ partial "util/scss.html" "style/postcard.scss" }}
-
-
-{{ range .Pages }}
-  
-  {{ partial "postcard.html" . }}
-
+{{ define "custom-style" }}
+  {{ partial "util/scss.html" "mona/style/postcard.scss" }}
 {{ end }}
 
+{{ define "content" }}
+
+  {{ range .Pages }}
+    {{ partial "postcard.html" . }}
+  {{ end }}
 
 {{ end }}
 

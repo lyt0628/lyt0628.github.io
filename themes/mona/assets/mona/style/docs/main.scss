@@ -1,0 +1,27 @@
+@import "../design";
+
+.docs-doc {
+    display: flex;
+
+    .doc-content {
+        flex: 0.2;
+        min-width: 300px;
+
+        text-align: center;
+
+        .doc-content-item {
+            background-color: $color-shadow-2;
+        }
+    }
+
+    .doc-article {
+        flex: 0.8;
+}
+    
+}
+
+
+
+.article-footer-next, .article-footer-prev {
+    margin-top: 2vh;
+}

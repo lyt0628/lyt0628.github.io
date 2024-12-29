@@ -1,0 +1,14 @@
+{{-  $sources := (.Get "sources") | default (.Get 0)   -}}
+
+{{-  $width := (.Get "width") | default (.Get 1)   -}}
+
+{{-  $height := (.Get "height") | default (.Get 2)   -}}
+
+
+
+<video  controls 
+{{ if $width }} width="{{$width}}" {{end }} {{ if $height }} height="{{$height}}" {{end }} >
+    {{ range $format, $path := $sources }}
+    <source src="{{$path}}" type="video/{{$format}}" />        
+    {{ end }} 
+</video>

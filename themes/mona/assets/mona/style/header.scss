@@ -35,6 +35,7 @@
                 .header-nav-sub-nav {
                     position: absolute;
                     display: flex;
+                    width: max-content;
 
                     flex-direction: column;
                  
@@ -109,7 +110,9 @@
 
 
                     .header-search-item {
+                        list-style: none;
                         margin-top: 1vh;
+
                     }
             }
             }

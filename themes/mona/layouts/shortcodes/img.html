@@ -1,0 +1,10 @@
+{{-  $path := (.Get "path") | default (.Get 0)   -}}
+
+{{-  $width := (.Get "width") | default (.Get 1)   -}}
+
+{{-  $height := (.Get "height") | default (.Get 2)   -}}
+
+
+
+<img  src="{{$path}}"
+{{ if $width }} width="{{$width}}" {{end }} {{ if $height }} height="{{$height}}" {{end }} />
